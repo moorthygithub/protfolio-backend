@@ -3,7 +3,7 @@ name = "backend"
 version = "1.1"
 description = "test"
 authors = ["Moorthy <moorthy.chandiran21@gmail.com>"]
-package-mode = false 
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
