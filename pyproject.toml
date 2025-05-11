@@ -5,7 +5,8 @@ description = "test"
 authors = ["Moorthy <moorthy.chandiran21@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 uvicorn = "^0.34.2"
-fastapi = "^0.95.1"  # Make sure FastAPI is added here as a dependency if not already present
-pyodbc = "^4.0"  # Include other dependencies as required
+fastapi = "^0.95.1"
+pyodbc = "4.0.32"  # Update to a specific version that is compatible
+
