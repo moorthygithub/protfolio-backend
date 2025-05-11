@@ -3,13 +3,9 @@ name = "backend"
 version = "1.1"
 description = "test"
 authors = ["Moorthy <moorthy.chandiran21@gmail.com>"]
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
 uvicorn = "^0.34.2"
-fastapi = {extras = ["all"], version = "^0.115.12"}
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+fastapi = "^0.95.1"  # Make sure FastAPI is added here as a dependency if not already present
+pyodbc = "^4.0"  # Include other dependencies as required
